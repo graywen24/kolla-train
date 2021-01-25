@@ -1,0 +1,4 @@
+[client.nova]
+	key = AQC39rFfeRMKEhAAweJwd5hdTZF6RUvtZwMmdQ==
+	caps mon = "allow r"
+	caps osd = "allow rwx pool=vms"

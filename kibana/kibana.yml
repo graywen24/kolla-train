@@ -1,0 +1,8 @@
+kibana.defaultAppId: "discover"
+logging.dest: /var/log/kolla/kibana/kibana.log
+server.port: 5601
+server.host: "10.71.104.70"
+elasticsearch.url: "http://10.71.104.69:9200"
+elasticsearch.requestTimeout: 300000
+elasticsearch.shardTimeout: 0
+elasticsearch.ssl.verificationMode: "full"

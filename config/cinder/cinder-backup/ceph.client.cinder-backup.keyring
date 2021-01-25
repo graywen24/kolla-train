@@ -1,0 +1,4 @@
+[client.cinder-backup]
+	key = AQBr9rFf7wmNKRAARqNGFk3Es1Taw3VTZtz1kw==
+	caps mon = "allow r"
+	caps osd = "allow rwx pool=volumes, allow rwx pool=backups"

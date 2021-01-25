@@ -1,0 +1,4 @@
+[client.gnocchi]
+	key = AQC5+rFf06peIBAAhLH5pu7tbe5/zs8AxVnHHw==
+	caps mon = "allow r"
+	caps osd = "allow rwx pool=gnocchi"

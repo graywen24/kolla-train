@@ -1,0 +1,18 @@
+action.auto_create_index: 'true'
+cluster.name: kolla_logging
+discovery.zen.minimum_master_nodes: 2
+discovery.zen.ping.unicast.hosts:
+- 10.71.104.70
+- 10.71.104.71
+- 10.71.104.72
+gateway.expected_nodes: 3
+gateway.recover_after_nodes: 2
+gateway.recover_after_time: 5m
+http.port: 9200
+indices.fielddata.cache.size: 40%
+network.host: 10.71.104.70
+node.data: true
+node.master: true
+node.name: 10.71.104.70
+path.data: /var/lib/elasticsearch/data
+path.logs: /var/log/kolla/elasticsearch

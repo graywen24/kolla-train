@@ -1,0 +1,4 @@
+[client.cinder]
+	key = AQDR9bFfAWrQAhAAU4MdPQusZo/oUkJZGlxiYw==
+	caps mon = "allow r"
+	caps osd = "allow rwx pool=volumes, allow rwx pool=vms, allow rx pool=images"
